@@ -1,0 +1,36 @@
+.task-container {
+    display: block;
+    flex-direction: column;
+    margin: 30px auto;
+    justify-content: center;
+    max-width: 750px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    background: #fff;
+}
+
+.task-container label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.task-container input {
+    width: 30px;
+    position: relative;
+    top: 36px;
+    height: 15px;
+}
+
+.task-container h1 {
+    color: #000;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.task-container p {
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    text-transform: capitalize;
+}

@@ -1,0 +1,46 @@
+.Add-task-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Add-task-container input {
+  height: 40px;
+  width: 400px;
+  font-size: 18px;
+  padding-left: 3px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: 2px solid #c2c2c2;
+  background: #fff;
+  outline: none !important;
+  color: #000;
+}
+
+.Add-task-container input::placeholder {
+  color: grey;
+}
+.Add-task-container button {
+  width: 250px;
+  height: 30px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+}
+
+.Add-task-container button:hover {
+  background-color: #4c5d9c;
+  color: #fff;
+}
+
+@media screen and (max-width: 420px) {
+  .Add-task-container input,
+  .Add-task-container button {
+    width: 95%;
+  }
+}
